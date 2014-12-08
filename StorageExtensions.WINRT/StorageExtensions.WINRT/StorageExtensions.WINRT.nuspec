@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A helper library for StorageFile and StorageFolder. Adds File and Folder-Exists methods. Also adds a method to read contents of a file into byte[].</description>
     <releaseNotes>Initial version. Still in development.</releaseNotes>
-    <copyright>Copyright 2014</copyright>
+    <copyright>Copyright 2014 - Daniel Kreuzhofer</copyright>
     <tags>StorageFile StorageFolder byte[] WINRT</tags>
   </metadata>
 </package>
