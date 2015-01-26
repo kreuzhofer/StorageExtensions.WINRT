@@ -18,5 +18,18 @@ namespace StorageExtensions.WINRT
                 return false;
             }
         }
+
+        public static async Task<IStorageItem> TryGetItemAsync(this StorageFolder folder, string itemName)
+        {
+            try
+            {
+                return await folder.GetItemAsync(itemName);
+
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
     }
 }
